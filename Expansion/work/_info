@@ -1,0 +1,607 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/expforvarilog/RISC_V_CPU/Single_cycle
+T_opt
+!s110 1748596523
+VdS?VOAbmh2g_`RYz07Fm31
+Z1 04 12 4 work riscv_soc_tb fast 0
+=1-f0d41577f78b-6839772a-22f-37cc
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.2;69
+R0
+T_opt1
+!s110 1749353815
+Vl6FekOhYf<aiYgX]4B_7g3
+R1
+=1-f0d41577f78b-68450557-d2-7694
+R2
+R3
+n@_opt1
+R4
+valu
+Z5 !s110 1749353794
+!i10b 1
+!s100 ^df:29;z0DL5J_2Bm:h1X3
+!s11b PTA7M;C]zz[cnH><A7XLl0
+I7D41Bo69APg1C<Ug4h1_j0
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 dD:/expforvarilog/RISC_V_CPU/Expansion
+w1749272928
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/alu.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/alu.v
+L0 1
+Z8 OL;L;2019.2;69
+r1
+!s85 0
+31
+Z9 !s108 1749353794.000000
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/alu.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+valu_control
+R5
+!i10b 1
+!s100 =?09MNiQUHU9faYDmC34f3
+!s11b SO6nS3dbCK8Y?7[UUAz0]2
+I@U:P[7S08X;:]O1h_4hHh0
+R6
+R7
+w1749272670
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/alu_control.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/alu_control.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/alu_control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/alu_control.v|
+!i113 0
+R10
+R3
+vbranch_control
+R5
+!i10b 1
+!s100 W;giS2FO5cclFejeO;n0V1
+!s11b 417OeOz6ZFnhOkKgjkAHK1
+I46F9VB^>jhT5=<a>mafJ00
+R6
+R7
+w1748423503
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/branch_control.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/branch_control.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/branch_control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/branch_control.v|
+!i113 0
+R10
+R3
+vbtb
+R5
+!i10b 1
+!s100 ?M[@?gNX]aWYek`gM3A;a2
+!s11b f8z;VVXHdm1L6@c>Ld@@Y0
+I4kVI[RK`V^M8JDQZjagGU2
+R6
+R7
+w1749202318
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/btb.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/btb.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/btb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/btb.v|
+!i113 0
+R10
+R3
+vbtb_control
+R5
+!i10b 1
+!s100 bU0=gza;Nd1;eijYK6`m80
+!s11b `Kh<`ljImfG8T@6;B1B<W0
+I9dOXh42P<XQP50aE^Ggjk2
+R6
+R7
+w1749187770
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/btb_control.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/btb_control.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/btb_control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/btb_control.v|
+!i113 0
+R10
+R3
+vcompare_ifid
+Z11 !s110 1749353795
+!i10b 1
+!s100 4a;3WkESHj]82Uc]UaWPS3
+!s11b WQo3AbzX[VH2ZMk3N=kL32
+Io6`8C?A[TX0L:O7fG^]FN0
+R6
+R7
+w1748588271
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/compare_ifid.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/compare_ifid.v
+L0 1
+R8
+r1
+!s85 0
+31
+Z12 !s108 1749353795.000000
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/compare_ifid.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/compare_ifid.v|
+!i113 0
+R10
+R3
+vcontrol
+R11
+!i10b 1
+!s100 5Q^AeH;5WEWXL[Ve_gz=E3
+!s11b Y[OVMB@LGg>BB=m8WoUfk0
+ICf769TjB^3S3Onc@72EXd1
+R6
+R7
+w1749279861
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/control.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/control.v
+L0 1
+R8
+r1
+!s85 0
+31
+R12
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/control.v|
+!i113 0
+R10
+R3
+vCSA
+Z13 !s110 1749353797
+!i10b 1
+!s100 4>Wz85VW2`YeGi7zcg]P93
+!s11b WZfTJ9g9b1gK`7E_URaNT1
+IQ=MEM9MI`l>n^YYo`:0@z0
+R6
+R7
+Z14 w1749283246
+Z15 8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/multiplier.v
+Z16 FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/multiplier.v
+L0 78
+R8
+r1
+!s85 0
+31
+Z17 !s108 1749353797.000000
+Z18 !s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/multiplier.v|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/multiplier.v|
+!i113 0
+R10
+R3
+n@c@s@a
+vCSA_16_2
+R13
+!i10b 1
+!s100 4zG6XJ=^9LIbQ@WekI4lj0
+!s11b :bzZ3Eei=`AO@gMa6Qf6?0
+I:XB9ka8a7b97F_Ah_2hBn0
+R6
+R7
+R14
+R15
+R16
+L0 157
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R10
+R3
+n@c@s@a_16_2
+vCSA_4_2
+R13
+!i10b 1
+!s100 OV1[c7UfZLQEMGIE6^_<<3
+!s11b LPHWbR>_P2MU<gz<EBGQ:0
+IYPMO:^Ti2?jnM[SmM]l0:0
+R6
+R7
+R14
+R15
+R16
+L0 91
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R10
+R3
+n@c@s@a_4_2
+vCSA_8_2
+R13
+!i10b 1
+!s100 BhIoPhQ[^6AcBDbXS_EQ>2
+!s11b ?Cad;@?Yi2OQ3=EJ@a5]K0
+I]@5_0l[n0b01@eTOH8dhb2
+R6
+R7
+R14
+R15
+R16
+L0 117
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R10
+R3
+n@c@s@a_8_2
+vdata_mem
+Z20 !s110 1749353793
+!i10b 1
+!s100 Fhz=li]mlY7;k1MUVMio30
+!s11b m6ELY7DKT@hgM@>7jHec`1
+IB5145SVnNd;5_e=L2BKS]3
+R6
+R7
+Z21 w1748362390
+8D:/expforvarilog/RISC_V_CPU/Expansion/data_mem.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/data_mem.v
+L0 1
+R8
+r1
+!s85 0
+31
+Z22 !s108 1749353793.000000
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/data_mem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/data_mem.v|
+!i113 0
+R10
+R3
+vFA
+R13
+!i10b 1
+!s100 CIP1f_e@RL0eeUHEhCYkJ3
+!s11b ?LF1ma9d16N<8@o9oh=?[0
+IVHj1A@MBYLoU]VE8G[K8?3
+R6
+R7
+R14
+R15
+R16
+L0 213
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R10
+R3
+n@f@a
+vforwarding_alu
+R11
+!i10b 1
+!s100 [nG3CW^;MQNWC=DTFFjjV0
+!s11b K2nlZCO5B4Cla5zE?R9Y[0
+Ij@zOM<GQZOKdcijdVjDYT3
+R6
+R7
+w1748519644
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/forwarding_alu.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/forwarding_alu.v
+L0 1
+R8
+r1
+!s85 0
+31
+R12
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/forwarding_alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/forwarding_alu.v|
+!i113 0
+R10
+R3
+vforwarding_branch
+R11
+!i10b 1
+!s100 ::<i4>FEn7^gob5:`]JYG3
+!s11b 4UG[Bok20TjW7gZKSYa>23
+Ic9dl;I;1d8HWI5UeDDGT_0
+R6
+R7
+w1748523548
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/forwarding_branch.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/forwarding_branch.v
+L0 1
+R8
+r1
+!s85 0
+31
+R12
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/forwarding_branch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/forwarding_branch.v|
+!i113 0
+R10
+R3
+vhazard_detect_alu
+R11
+!i10b 1
+!s100 hNcE:k9><_0329h<lgQ>g2
+!s11b FUED_>=KJFenBolQ3UkLd0
+IPbh]IaTbIDSFCJTTeBhUJ2
+R6
+R7
+w1748522273
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/hazard_detect_alu.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/hazard_detect_alu.v
+L0 1
+R8
+r1
+!s85 0
+31
+R12
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/hazard_detect_alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/hazard_detect_alu.v|
+!i113 0
+R10
+R3
+vhazard_detect_branch
+Z23 !s110 1749353796
+!i10b 1
+!s100 Xg6CMNZV<V5A8A1V`:9<A3
+!s11b ;U5OdOXCE5^4W9Oh30f@_3
+IAURLGUT`ZJ4>@kgdA<gm]1
+R6
+R7
+w1748524328
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/hazard_detect_branch.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/hazard_detect_branch.v
+L0 1
+R8
+r1
+!s85 0
+31
+R12
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/hazard_detect_branch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/hazard_detect_branch.v|
+!i113 0
+R10
+R3
+vimmgen_b
+R23
+!i10b 1
+!s100 6401hk`ZkPL[i;dQzCfi71
+!s11b _kP0bTD3o:PVWmcPeog[Y3
+Il>lYSLe_oZV4G^95V2NeL3
+R6
+R7
+w1748423994
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_b.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_b.v
+L0 1
+R8
+r1
+!s85 0
+31
+Z24 !s108 1749353796.000000
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_b.v|
+!i113 0
+R10
+R3
+vimmgen_i
+R23
+!i10b 1
+!s100 5j=5H7`EIo2[a`>2ddJ:Y0
+!s11b f:5X:QNnJmh`UGMzIjOPW0
+I8IU;oQ@]8CZQH2E@io;XD0
+R6
+R7
+w1748441331
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_i.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_i.v
+L0 1
+R8
+r1
+!s85 0
+31
+R24
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_i.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_i.v|
+!i113 0
+R10
+R3
+vimmgen_j
+R23
+!i10b 1
+!s100 fF=GN<8TL[P62=dBXK74O3
+!s11b ABgPO3jU4MS3AF_DCX@aX0
+I`2^3=boa3hL^EP3S:=do<1
+R6
+R7
+w1748442708
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_j.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_j.v
+L0 1
+R8
+r1
+!s85 0
+31
+R24
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_j.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_j.v|
+!i113 0
+R10
+R3
+vimmgen_s
+R23
+!i10b 1
+!s100 ?=<6A<LR4]I^C<2WH;Fmh3
+!s11b mIBMjCOo:c[4>V>iQ[K:K2
+IhTQ5RVEAYA[mW]H2b5Rg:0
+R6
+R7
+w1748423147
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_s.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_s.v
+L0 1
+R8
+r1
+!s85 0
+31
+R24
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_s.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_s.v|
+!i113 0
+R10
+R3
+vinst_mem
+R20
+!i10b 1
+!s100 @]6S>;dE3bM04e=OTJ7R[2
+!s11b mVb[A5B1UAn2Z6mI_L^AM2
+I`Pm0:d_GbeHfU=omYX:ZJ3
+R6
+R7
+R21
+8D:/expforvarilog/RISC_V_CPU/Expansion/inst_mem.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/inst_mem.v
+L0 1
+R8
+r1
+!s85 0
+31
+R22
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/inst_mem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/inst_mem.v|
+!i113 0
+R10
+R3
+vmultiplier
+R13
+!i10b 1
+!s100 ]_lRN15[Kf;`]2f@;97bJ1
+!s11b UcRV@gFj2a]:FGC:0E@TV2
+Ia3=f?]z;5WJkRd:<=S4V=2
+R6
+R7
+R14
+R15
+R16
+L0 1
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R10
+R3
+vregister_file
+R23
+!i10b 1
+!s100 DB^iT^:OKZHZVDZYHJjc@1
+!s11b SS_z5Tnz`ES?iC;G^b=JY0
+IKF1K4>XfF<6jU@T1g_LgB1
+R6
+R7
+w1748518668
+8D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/register_file.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/register_file.v
+L0 1
+R8
+r1
+!s85 0
+31
+R24
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/register_file.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/register_file.v|
+!i113 0
+R10
+R3
+vriscv
+R20
+!i10b 1
+!s100 ^4mkNP]73SzKhFnG]hJ^b1
+!s11b 8j;igEjzQVH4j?QK_YoRd2
+Imn44MGE9AMCObbbKhg4Kk3
+R6
+R7
+w1749353746
+8D:/expforvarilog/RISC_V_CPU/Expansion/riscv.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/riscv.v
+L0 1
+R8
+r1
+!s85 0
+31
+R22
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/riscv.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/riscv.v|
+!i113 0
+R10
+R3
+vriscv_soc_tb
+R20
+!i10b 1
+!s100 1;_=>BWOL2G>6`6e8n9VP0
+!s11b 1Vl[BMNa>fC^2zJdfYH=l2
+IKAm4^>S@3SdoX7b:JHITT2
+R6
+R7
+R21
+8D:/expforvarilog/RISC_V_CPU/Expansion/riscv_soc_tb.v
+FD:/expforvarilog/RISC_V_CPU/Expansion/riscv_soc_tb.v
+L0 3
+R8
+r1
+!s85 0
+31
+R22
+!s107 D:/expforvarilog/RISC_V_CPU/Expansion/riscv_soc_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Expansion/riscv_soc_tb.v|
+!i113 0
+R10
+R3

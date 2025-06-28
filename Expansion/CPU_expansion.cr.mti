@@ -1,0 +1,146 @@
+D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/hazard_detect_branch.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/hazard_detect_branch.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module hazard_detect_branch
+
+Top level modules:
+	hazard_detect_branch
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/forwarding_branch.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/forwarding_branch.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module forwarding_branch
+
+Top level modules:
+	forwarding_branch
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/btb_control.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/btb_control.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module btb_control
+
+Top level modules:
+	btb_control
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/control.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/control.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/alu.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/alu.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/hazard_detect_alu.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/hazard_detect_alu.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module hazard_detect_alu
+
+Top level modules:
+	hazard_detect_alu
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/register_file.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/register_file.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_b.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_b.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module immgen_b
+
+Top level modules:
+	immgen_b
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/multiplier.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/multiplier.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module multiplier
+-- Compiling module CSA
+-- Compiling module CSA_4_2
+-- Compiling module CSA_8_2
+-- Compiling module CSA_16_2
+-- Compiling module FA
+
+Top level modules:
+	multiplier
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/data_mem.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/data_mem.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module data_mem
+
+Top level modules:
+	data_mem
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/riscv_soc_tb.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/riscv_soc_tb.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module riscv_soc_tb
+
+Top level modules:
+	riscv_soc_tb
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_s.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_s.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module immgen_s
+
+Top level modules:
+	immgen_s
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/btb.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/btb.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module btb
+
+Top level modules:
+	btb
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/alu_control.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/alu_control.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module alu_control
+
+Top level modules:
+	alu_control
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/compare_ifid.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/compare_ifid.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module compare_ifid
+
+Top level modules:
+	compare_ifid
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/inst_mem.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/inst_mem.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module inst_mem
+
+Top level modules:
+	inst_mem
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/forwarding_alu.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/forwarding_alu.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module forwarding_alu
+
+Top level modules:
+	forwarding_alu
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_i.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_i.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module immgen_i
+
+Top level modules:
+	immgen_i
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/branch_control.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/branch_control.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module branch_control
+
+Top level modules:
+	branch_control
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_j.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Expansion/cpu_component/immgen_j.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module immgen_j
+
+Top level modules:
+	immgen_j
+
+} {} {}}

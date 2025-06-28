@@ -1,4 +1,11 @@
-D:/expforvarilog/RISC_V_CPU/Single_cycle/riscv.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Single_cycle/riscv.v
+D:/expforvarilog/RISC_V_CPU/Single_cycle/cpu_component/register_file.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Single_cycle/cpu_component/register_file.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} D:/expforvarilog/RISC_V_CPU/Single_cycle/riscv.v {1 {vlog -work work -vopt -stats=none D:/expforvarilog/RISC_V_CPU/Single_cycle/riscv.v
 Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
 -- Compiling module riscv
 

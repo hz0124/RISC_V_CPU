@@ -139,10 +139,10 @@ module riscv(
 	assign fun7 = IFID_inst[31:25];
 
 	assign comp_ain = (forward_a == 2'b10) ? EXMEM_alu_result :
-					  (forward_a == 2'b01) ? MEMWB_alu_result : rdata1;
+					  (forward_a == 2'b01) ? wdata : rdata1;
 
 	assign comp_bin = (forward_b == 2'b10) ? EXMEM_alu_result :
-					  (forward_b == 2'b01) ? MEMWB_alu_result : rdata2;
+					  (forward_b == 2'b01) ? wdata : rdata2;
 
 
 	// Register file write data
@@ -278,9 +278,9 @@ module riscv(
 	wire [31:0] IDEX_r2;
 	wire [31:0] EXMEM_alu_res;
 	assign IDEX_r1 = (IDEX_forward_a == 2'b10) ? EXMEM_alu_result :
-					 (IDEX_forward_a == 2'b01) ? MEMWB_alu_result : IDEX_rdata1;
+					 (IDEX_forward_a == 2'b01) ? wdata : IDEX_rdata1;
 	assign IDEX_r2 = (IDEX_forward_b == 2'b10) ? EXMEM_alu_result :
-					 (IDEX_forward_b == 2'b01) ? MEMWB_alu_result : IDEX_rdata2;
+					 (IDEX_forward_b == 2'b01) ? wdata : IDEX_rdata2;
 	assign alu_a = IDEX_r1;
 	assign alu_b = (IDEX_alu_src) ? IDEX_imm : IDEX_r2; // Use immediate if alu_src is set
 	
@@ -369,7 +369,7 @@ module riscv(
 			IDEX_rs1 <= 5'b0;
 			IDEX_rs2 <= 5'b0;
 		end
-		else if (is_an_inst) begin
+		else begin
 			IDEX_mem_en <= mem_en;
 			IDEX_mem_to_reg <= mem_to_reg;
 			IDEX_mem_write <= mem_write;

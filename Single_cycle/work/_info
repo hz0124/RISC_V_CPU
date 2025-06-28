@@ -10,16 +10,16 @@ z2
 cModel Technology
 dD:/expforvarilog/vlsi_lab1
 T_opt
-!s110 1748497746
-VJG?MJSYAj6Sn>adbK>XNG1
+!s110 1749381366
+Vc?jGbS_2i`ROTm[`3L[N83
 04 12 4 work riscv_soc_tb fast 0
-=1-f0d41577f78b-6837f551-399-2898
+=1-f0d41577f78b-684570f6-9a-92b8
 o-quiet -auto_acc_if_foreign -work work +acc
 Z0 tCvgOpt 0
 n@_opt
 OL;O;2019.2;69
 valu
-Z1 !s110 1748497668
+Z1 !s110 1749381352
 !i10b 1
 !s100 AiSk?2omZLj2TaVl?<[LA0
 !s11b 4U30VZdNbO3=O@cjIC^V<0
@@ -34,7 +34,7 @@ Z4 OL;L;2019.2;69
 r1
 !s85 0
 31
-Z5 !s108 1748497668.000000
+Z5 !s108 1749381352.000000
 !s107 D:/expforvarilog/RISC_V_CPU/Single_cycle/cpu_component/alu.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Single_cycle/cpu_component/alu.v|
 !i113 0
@@ -63,7 +63,7 @@ R5
 R6
 R0
 vbranch_control
-Z7 !s110 1748497669
+Z7 !s110 1749381353
 !i10b 1
 !s100 W;giS2FO5cclFejeO;n0V1
 !s11b 417OeOz6ZFnhOkKgjkAHK1
@@ -78,7 +78,7 @@ R4
 r1
 !s85 0
 31
-Z8 !s108 1748497669.000000
+Z8 !s108 1749381353.000000
 !s107 D:/expforvarilog/RISC_V_CPU/Single_cycle/cpu_component/branch_control.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Single_cycle/cpu_component/branch_control.v|
 !i113 0
@@ -107,7 +107,7 @@ R8
 R6
 R0
 vdata_mem
-Z9 !s110 1748497670
+Z9 !s110 1749381354
 !i10b 1
 !s100 Fhz=li]mlY7;k1MUVMio30
 !s11b m6ELY7DKT@hgM@>7jHec`1
@@ -122,7 +122,7 @@ R4
 r1
 !s85 0
 31
-Z11 !s108 1748497670.000000
+Z11 !s108 1749381354.000000
 !s107 D:/expforvarilog/RISC_V_CPU/Single_cycle/data_mem.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Single_cycle/data_mem.v|
 !i113 0
@@ -173,7 +173,7 @@ R8
 R6
 R0
 vimmgen_j
-R9
+R7
 !i10b 1
 !s100 fF=GN<8TL[P62=dBXK74O3
 !s11b ABgPO3jU4MS3AF_DCX@aX0
@@ -243,25 +243,25 @@ R9
 !i10b 1
 !s100 Se:_`Hz?0jbY^jg9SQU^f2
 !s11b 8Y1b7:RFjbP^0H9X17ZK>3
-IJ@llTN2ec9amRGAGTWYb93
+I6Qno9<B<f<fCE^0Wc9I=z1
 R2
 R3
-w1748497616
-8D:\expforvarilog\RISC_V_CPU\Single_cycle\cpu_component\register_file.v
-FD:\expforvarilog\RISC_V_CPU\Single_cycle\cpu_component\register_file.v
+w1748518656
+8D:/expforvarilog/RISC_V_CPU/Single_cycle/cpu_component/register_file.v
+FD:/expforvarilog/RISC_V_CPU/Single_cycle/cpu_component/register_file.v
 L0 1
 R4
 r1
 !s85 0
 31
 R11
-!s107 D:\expforvarilog\RISC_V_CPU\Single_cycle\cpu_component\register_file.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\expforvarilog\RISC_V_CPU\Single_cycle\cpu_component\register_file.v|
+!s107 D:/expforvarilog/RISC_V_CPU/Single_cycle/cpu_component/register_file.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Single_cycle/cpu_component/register_file.v|
 !i113 0
 R6
 R0
 vriscv
-Z12 !s110 1748497671
+R9
 !i10b 1
 !s100 @J=HY;8FbJ0TJel=S3Zl?3
 !s11b gE4=l?afBZ0FzFUTJ6mO21
@@ -276,14 +276,14 @@ R4
 r1
 !s85 0
 31
-Z13 !s108 1748497671.000000
+R11
 !s107 D:/expforvarilog/RISC_V_CPU/Single_cycle/riscv.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Single_cycle/riscv.v|
 !i113 0
 R6
 R0
 vriscv_soc_tb
-R12
+!s110 1749381355
 !i10b 1
 !s100 1;_=>BWOL2G>6`6e8n9VP0
 !s11b 1Vl[BMNa>fC^2zJdfYH=l2
@@ -298,7 +298,7 @@ R4
 r1
 !s85 0
 31
-R13
+!s108 1749381355.000000
 !s107 D:/expforvarilog/RISC_V_CPU/Single_cycle/riscv_soc_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/expforvarilog/RISC_V_CPU/Single_cycle/riscv_soc_tb.v|
 !i113 0
