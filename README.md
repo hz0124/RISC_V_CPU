@@ -1,2 +1,4 @@
 ## RISC-V-CPU
-This is a RISC-V CPU written in Verilog for the subject MST-3305, supporting some of RISC-V instruction now.
+This is a RISC-V CPU written in Verilog for the subject MST-3305 in SJTU, supporting some of RISC-V instruction now.
+
+The final version up to date is in the Extension fold. You can add all files in it to the Modelsim and try to get a piece of assembly code executed. The difference between Pipeline version and Extension version is that Extension version add branch prediction function which makes loop program faster than the early version one cycle per iteration. Extension version also add multiplier function supply, you can try to cut the long combinational logic path with register to shorten the critical path.
